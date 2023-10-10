@@ -4,5 +4,10 @@
 //     console.log('vaalue of img.  '+ i)
 //     console.dir(s[i].src)
 // }
-var b =document.getElementsByClassName("hhhh")
-console.log(b)
+// var b =document.getElementsByClassName("hhhh")
+// console.log(b)
+
+// var b= document.getElementsByTagName("p")
+    console.dir(document.querySelectorAll("div li"))
+    console.dir(document.querySelector(".images"))
+    console.dir(document.querySelectorAll("#nextp"))
