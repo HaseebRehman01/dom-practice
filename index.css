@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(255, 234, 206);
+}
+.box{
+    background-color: aqua;
+    color: white;
+}
+.nextp{
+    background-color: rgb(170, 170, 231);
+    color: white;
+}
+.img{
+    width: 60px;
+    height: 60px;
+
+}
+img{
+    width: 60px;
+    height: 60px;
+}
