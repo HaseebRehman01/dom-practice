@@ -8,6 +8,10 @@
 // console.log(b)
 
 // var b= document.getElementsByTagName("p")
-    console.dir(document.querySelectorAll("div li"))
-    console.dir(document.querySelector(".images"))
-    console.dir(document.querySelectorAll("#nextp"))
+    // console.dir(document.querySelectorAll("div li"))
+    // console.dir(document.querySelector(".images"))
+    // console.dir(document.querySelectorAll("#nextp"))
+
+    // 
+    var h = document.querySelector("h1")
+    h.innerHTML = `<u>${h.innerText}<u/>`
