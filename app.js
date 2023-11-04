@@ -1,17 +1,28 @@
-// var s = document.getElementsByClassName("images")
-// for (var i = 0 ; i < s.length;i++){
-//     s[i].src="https://t4.ftcdn.net/jpg/04/60/49/11/360_F_460491148_TG2fTN9oV5NEgpNbN8l8TDlnN8NIHRpt.jpg"
-//     console.log('vaalue of img.  '+ i)
-//     console.dir(s[i].src)
-// }
-// var b =document.getElementsByClassName("hhhh")
-// console.log(b)
+// practice
+// 1
+// var createP = document.createElement("p")
+// createP.innerText = "Hello i am createP. My red color is set by classList using js"
+// createP.classList.add("red")
+// var b = document.querySelector("body")
+// b.append(createP)
 
-// var b= document.getElementsByTagName("p")
-    // console.dir(document.querySelectorAll("div li"))
-    // console.dir(document.querySelector(".images"))
-    // console.dir(document.querySelectorAll("#nextp"))
+// 2
+// var h = document.createElement("h3")
+// h.innerText= "Hello i am blue h3"
+// h.classList.add("h3")
+//  var b = document.querySelector("body")
+//  b.append(h)
 
-    // 
-    var h = document.querySelector("h1")
-    h.innerHTML = `<u>${h.innerText}<u/>`
+// 3
+// var d = document.createElement("div")
+// d.style.backgroundColor = "yellow"
+// d.style.border = "2px solid red";
+// var h = document.createElement("h1")
+// h.innerText= "hello i am h1 . I am in div"
+// d.append(h)
+// var p = document.createElement("p")
+// p.innerText= "hello i  am para. I am in div too"
+// d.append(p)
+//  var b = document.querySelector("body")
+//  b.append(d)
+//  b.prepend(d)
